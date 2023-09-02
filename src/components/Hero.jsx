@@ -9,14 +9,15 @@ const Hero = () => {
             <div className="max-w-5xl mx-auto px-8 pt-24">
 
               <div className="relative text-white text-5xl text-center font-bold z-10">
-                <div className="absolute w-[390px] h-6 inset-x-0 mx-auto -bottom-1 opacity-80 bg-lime-500 -z-10"></div>RISE MY HANDS
+                RISE MY HANDS
+                <div className="absolute max-w-[390px] h-6 inset-x-0 mx-auto -bottom-1 opacity-80 bg-lime-500 -z-10"></div>
               </div>
 
               <h1 className="text-white text-3xl text-center font-medium mt-3">
                 blogs no image
               </h1>
 
-              <div className="relative flex justify-center mx-auto mt-8 items-center w-[300px] h-10 rounded-lg overflow-hidden">
+              <div className="relative flex justify-center mx-auto mt-8 items-center w-[250px] sm:w-[300px] h-10 rounded-lg overflow-hidden">
                 <input type="text" placeholder="Search blog here ..." className="absolute h-full w-full bg-gray-200  border-none outline-none pl-3 text-lg text-slate-600 font-semibold"/>
                 <span className="absolute top-0 right-0 flex justify-center items-center text-black bg-lime-500 h-full w-10 cursor-pointer">
                   <BsSearchHeart size={20} />

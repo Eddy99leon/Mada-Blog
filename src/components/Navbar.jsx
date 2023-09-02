@@ -11,7 +11,7 @@ function Navbar() {
 
     return (
         <section className=" bg-lime-500">
-            <nav className="flex justify-between items-center max-w-5xl mx-auto py-3 px-8 text-black">
+            <nav className="flex justify-between items-center max-w-5xl mx-auto py-3 px-3 sm:px-8 text-black">
                 <Link to='/'>
                     <h1 className="flex items-center text-xl font-bold">
                         <BiReceipt size={25} /> MadaBlog.
