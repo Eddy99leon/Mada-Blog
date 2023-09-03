@@ -10,14 +10,12 @@ import Sidebar from './components/Sidebar'
 function App() {
   return (
     <>
-      <Navbar />
       <Sidebar />
       <Routes>
         <Route path='/Mada-Blog/' element={<Home />} />
         <Route path='/Mada-Blog/abouts' element={<Abouts />} />
         <Route path='/Mada-Blog/contacts' element={<Contacts />} />
       </Routes>
-      <Footer />
     </>
   )
 }

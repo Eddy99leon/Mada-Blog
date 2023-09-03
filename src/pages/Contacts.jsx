@@ -1,9 +1,11 @@
 import back7 from "../assets/back7.jpg"
+import Footer from "../components/Footer"
+import Navbar from "../components/Navbar"
 
 const Contacts = () => {
   return (
     <section>
-
+        <Navbar />
       
         <div style={{backgroundImage:`url(${back7})`}} className="w-full h-[400px] bg-no-repeat bg-center bg-cover object-fill ">
           <div className="w-full h-full bg-black top-0 left-0 bg-opacity-70">
@@ -77,6 +79,8 @@ const Contacts = () => {
                 </div>
             </div>
         </div>
+
+        <Footer />
     </section>
   )
 }
