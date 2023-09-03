@@ -25,9 +25,9 @@ const Sidebar = () => {
                 </div>
                 <div className='text-center pt-10'>
                     <ul className="text-xl font-semibold space-y-6">
-                        <li onClick={() => setIsOpen(false)} className='hover:text-lime-700'><Link to='/'>home</Link></li>
-                        <li onClick={() => setIsOpen(false)} className='hover:text-lime-700'><Link to='/abouts'>abouts</Link></li>
-                        <li onClick={() => setIsOpen(false)} className='hover:text-lime-700'><Link to='/contacts'>contacts</Link></li>
+                        <li onClick={() => setIsOpen(false)} className='hover:text-lime-700'><Link to='/Mada-Blog/'>home</Link></li>
+                        <li onClick={() => setIsOpen(false)} className='hover:text-lime-700'><Link to='/Mada-Blog/abouts'>abouts</Link></li>
+                        <li onClick={() => setIsOpen(false)} className='hover:text-lime-700'><Link to='/Mada-Blog/contacts'>contacts</Link></li>
                     </ul>
                 </div>
             </div>

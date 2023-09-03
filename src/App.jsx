@@ -13,9 +13,9 @@ function App() {
       <Navbar />
       <Sidebar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/abouts' element={<Abouts />} />
-        <Route path='/contacts' element={<Contacts />} />
+        <Route path='/Mada-Blog/' element={<Home />} />
+        <Route path='/Mada-Blog/abouts' element={<Abouts />} />
+        <Route path='/Mada-Blog/contacts' element={<Contacts />} />
       </Routes>
       <Footer />
     </>

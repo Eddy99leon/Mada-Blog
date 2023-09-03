@@ -19,9 +19,9 @@ function Navbar() {
                 </Link>
                 <div className="flex items-center">
                     <ul className="hidden md:flex space-x-8 text-lg font-semibold mr-8">
-                        <li><Link to='/'>home</Link></li>
-                        <li><Link to='/abouts'>abouts</Link></li>
-                        <li><Link to='/contacts'>contacts</Link></li>
+                        <li><Link to='/Mada-Blog/'>home</Link></li>
+                        <li><Link to='/Mada-Blog/abouts'>abouts</Link></li>
+                        <li><Link to='/Mada-Blog/contacts'>contacts</Link></li>
                     </ul>
                     <div className="flex items-center space-x-4 pl-8 border-none md:border-l-2 border-black">
                         <BsPersonCircle size={20} className=" cursor-pointer" />

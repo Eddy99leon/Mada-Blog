@@ -6,7 +6,7 @@ import SidebarProvider from './contexts/SidebarContext.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <SidebarProvider>
-    <BrowserRouter>
+    <BrowserRouter basename='/Mada-Blog/'>
       <App />
     </BrowserRouter>
   </SidebarProvider>
